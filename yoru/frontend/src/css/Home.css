@@ -1,0 +1,73 @@
+/*	This CSS file will be used for the following
+	- For the home page component
+*/
+
+/* This symbol targets all elements*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body changes the style of the entire page */
+body{
+    min-height: 100vh;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #1e1379 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*  */
+.container{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background: #1c2d8036;
+  border: 2px solid #FFCC70;
+  border-radius: 20px;
+
+  height: 700px;
+  width: 800px;
+  text-align: center;
+}
+/* Creates the width and correct size positioning */
+.items{
+    width: 600px;
+    margin-top: 22%;
+    margin-left: 13%;
+    padding: 10px 0px 0px 0px;
+}
+
+/* Edits to HTML items themselves*/
+
+h1{
+    font-size: 6em;
+}
+
+p{
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+
+button{
+    width: 120px;
+    height: 70px;
+
+    background:#C850C0;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Button hover feature */
+button:hover{
+    background: rgba(0, 0, 0, 0.404);
+    color: #C850C0;
+}

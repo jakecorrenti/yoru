@@ -1,0 +1,38 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+
+.login-form{
+  /* These 5 lines center the div in the center of the screen */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background: gray;
+
+  height: 300px;
+  width: 400px;
+  /* margin: 0px auto; */
+}
+
+h2{
+  /* top, right, bottom, left */
+  font-size: 30px;
+  margin: 35px 0px 0px 0px;
+  height: 20px;
+}
+
+/* This edits the class that contains both input objects */
+.input-wrapper{
+  padding: 5px 5px 5px 5px;
+  height: 50px;
+  margin-top: 50px;
+}
+
+/* This modifies the input fields themselves */
+input{
+  width: 200px;
+}
