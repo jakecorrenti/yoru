@@ -13,7 +13,7 @@
 body{
     min-height: 100vh;
     background-color: #4158D0;
-    background-image: linear-gradient(43deg, #1e1379 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient(43deg, #f5dfc2 0%, #b48c75 50%, #f5dfc2 100%);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -24,8 +24,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  background: #1c2d8036;
-  border: 2px solid #FFCC70;
+  background: transparent;
   border-radius: 20px;
 
   height: 700px;
@@ -55,7 +54,7 @@ button{
     width: 120px;
     height: 70px;
 
-    background:#C850C0;
+    background:#dd5d2a;
     border: 2px solid black;
     border-radius: 10px;
 
@@ -69,5 +68,5 @@ button{
 /* Button hover feature */
 button:hover{
     background: rgba(0, 0, 0, 0.404);
-    color: #C850C0;
+    color: #502b13;
 }

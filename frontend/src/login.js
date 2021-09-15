@@ -6,12 +6,12 @@ const Login = () => {
     return (
         <div className="App">
             <div class="login-form">
-                <h2>yoru</h2>
+                <h2>Yoru</h2>
                 <div class="input-wrapper">
-                    <input type="text" placeholder="username" />
-                    <input type="password" placeholder="password" />
+                    <input type="text" placeholder=" Username" />
+                    <input type="password" placeholder=" Password" />
                 </div>
-                <button>login</button>
+                <button>Login</button>
                 <p>Not registered? <a href="">Create an account</a></p>
             </div>
         </div>

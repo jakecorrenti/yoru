@@ -14,7 +14,7 @@ export default class Home extends Component {
             <div class="body">
                 <div class="container">
                     <div class="items">
-                        <h1>yoru</h1>
+                        <h1>Yoru</h1>
                         <p>A tool to help you find common breaks in you and your friends' schedules</p>
                         <Link to="/login">
                             <button>Try now</button>

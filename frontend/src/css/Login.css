@@ -11,8 +11,9 @@
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  background: gray;
+  background: rgb(230, 179, 146);
 
+  border-radius: 50px;
   height: 300px;
   width: 400px;
   /* margin: 0px auto; */
@@ -35,4 +36,5 @@ h2{
 /* This modifies the input fields themselves */
 input{
   width: 200px;
+  border-radius: 5px;
 }
