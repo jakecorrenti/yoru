@@ -12,10 +12,8 @@
 /* Body changes the style of the entire page */
 body{
     min-height: 100vh;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #f5dfc2 0%, #b48c75 50%, #f5dfc2 100%);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background: rgb(202, 136, 60);
+    background-size: contain;    
 }
 
 /*  */
@@ -24,9 +22,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  background: transparent;
   border-radius: 20px;
-
   height: 700px;
   width: 800px;
   text-align: center;
@@ -34,27 +30,30 @@ body{
 /* Creates the width and correct size positioning */
 .items{
     width: 600px;
-    margin-top: 22%;
+    margin-top: 15%;
     margin-left: 13%;
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 /* Edits to HTML items themselves*/
 
 h1{
     font-size: 6em;
+    color: rgb(0, 0, 0);
 }
 
 p{
     margin-top: 2%;
     font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    color: (170, 184, 248);
 }
 
 button{
     width: 120px;
     height: 70px;
 
-    background:#dd5d2a;
+    background:#c5850e;
     border: 2px solid black;
     border-radius: 10px;
 
@@ -67,6 +66,6 @@ button{
 
 /* Button hover feature */
 button:hover{
-    background: rgba(0, 0, 0, 0.404);
-    color: #502b13;
+    background: rgba(138, 109, 15, 0.404);
+    color: #0000007e;
 }
