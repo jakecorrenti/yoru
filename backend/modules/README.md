@@ -1,3 +1,3 @@
 # Modules
 
-This contains all the data structures and their implementations
+This contains all the modules and their implementations
