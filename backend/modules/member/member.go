@@ -13,13 +13,10 @@ type Member struct {
 	CreatedAt time.Time `json:"createdAt"`
 }
 
-func newMember(firstname, lastname, email string) Member {
+func newMember() Member {
 	//generate ID and check to make sure it isn't taken
 	return Member{
-		ID:        "sjfjfsjsjsdfjk",
-		FirstName: firstname,
-		LastName:  lastname,
-		Email:     email,
+		ID:        "default",
 		CreatedAt: time.Now(),
 	}
 }
