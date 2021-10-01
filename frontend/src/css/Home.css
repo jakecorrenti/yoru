@@ -1,7 +1,9 @@
 /*	This CSS file will be used for the following
 	- For the home page component
 */
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* This symbol targets all elements*/
 *{
     margin: 0;
@@ -12,16 +14,23 @@
 /* Body changes the style of the entire page */
 body{
     min-height: 100vh;
-    background: rgb(202, 136, 60);
+	background-color: #FF3CAC;
+	background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
     background-size: contain;    
 }
 
 /*  */
+
+.home-page{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .container{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+
+  /* transform: translateY(-50%) translateX(-50%); */
   border-radius: 20px;
   height: 700px;
   width: 800px;
@@ -49,11 +58,11 @@ p{
     color: (170, 184, 248);
 }
 
-button{
+#home-buttons{
     width: 120px;
-    height: 70px;
+    height: 60px;
 
-    background:#c5850e;
+    background:#A06CD5;
     border: 2px solid black;
     border-radius: 10px;
 
@@ -65,7 +74,13 @@ button{
 }
 
 /* Button hover feature */
-button:hover{
-    background: rgba(138, 109, 15, 0.404);
-    color: #0000007e;
+#home-buttons:hover{
+    background: #102B3F;
+    color: #E2CFEA;
 }
+
+/* section{
+	width: 100vw;
+	height: 100vh;
+} */
+
