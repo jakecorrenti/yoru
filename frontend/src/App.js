@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Switch, Router, Route, Link, BrowserRouter } from 'react-router-dom';
 import Login from './login';
 
 // import './login';
@@ -161,8 +161,7 @@ export default class MainPage extends Component {
 
 	render(){
 		return (
-			<div className="App">
-					{this.navbar()}
+				<div className="App">
 					<div className="content">
 						<Switch>
 							<Route exact path="/">
@@ -173,7 +172,7 @@ export default class MainPage extends Component {
 							</Route>
 						</Switch>
 					</div>
-			</div>
+ 				</div>
 		);
 	}
 };
